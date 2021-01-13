@@ -40,15 +40,25 @@ int main()
 
     for (int i = 0; i < 5; i++)
     {
+        cout << "Przedmiot " << i + 1 << " = ";
         cin >> oceny[i];
-        // przerwa();
+
+        if ((oceny[i] > 6) || (oceny[i] < 1))
+        {
+            cout << "\n Wprowadz oceny > 0 lub < 6!! \n";
+            i--;
+        }
     }
+
+    cout << endl;
+    przerwa();
+    cout << endl
+         << "Twoje oceny to: \n";
 
     for (int i = 0; i <= 4; i++)
     {
-        cout << "Przedmiot " << i + 1 << " = " << oceny[i] << endl;
+        cout << "Ocena z przedmiotu " << i + 1 << " = " << oceny[i] << endl;
     }
 
-  
     // return 0;
 }
