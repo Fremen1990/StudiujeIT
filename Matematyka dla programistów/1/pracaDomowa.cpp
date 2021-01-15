@@ -60,5 +60,5 @@ int main()
         cout << "Ocena z przedmiotu " << i + 1 << " = " << oceny[i] << endl;
     }
 
-    // return 0;
+    return 0;
 }
