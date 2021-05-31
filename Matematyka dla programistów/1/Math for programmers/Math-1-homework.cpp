@@ -30,9 +30,9 @@ int main()
 
         if (scores[i] < 1 || scores[i] > 5)
         {
-            scores[i] = 0;
+
             std::cout << "Please enter scores in range from 1 to 5 :";
-            std::cin >> scores[i];
+            i--;
         }
 
         std::cout << std::endl;
