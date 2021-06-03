@@ -24,12 +24,14 @@ int main()
     // cout << "Zmienna test - " << test << " - adress: " << &test << endl;
     int tablica[5]{11, 22, 33, 44, 55};
 
-    cout << "tablica:  " << tablica << endl;
-    cout << "tablica:    " << *tablica << endl;
-    cout << "tablica +4:   " << *(tablica + 4) << endl;
+    // cout << "tablica:  " << tablica << endl;
+    // cout << "INT size: " << sizeof(int) << endl;
+    // cout << "Rozmiar tablicy: " << sizeof(tablica) << endl;
+    // cout << "tablica:    " << *tablica << endl;
+    // cout << "tablica +4:   " << *(tablica + 4) << endl;
 
-    cout << "Wielkosc " << sizeof(tablica) << endl;
-    cout << "INT" << sizeof(int) << endl;
+    // cout << "Wielkosc " << sizeof(tablica) << endl;
+    // cout << "INT" << sizeof(int) << endl;
     cout << "Tablica element 1  - tablica [0] " << tablica[0] << " adress: " << &tablica[0] << endl;
     cout << "Tablica element 2  - tablica [1] " << tablica[1] << " adress: " << &tablica[1] << endl;
     cout << "Tablica element 3  - tablica [2] " << tablica[2] << " adress: " << &tablica[2] << endl;

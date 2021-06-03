@@ -36,6 +36,7 @@ char sum(int a, char b)
 {
     cout << "Our function" << endl;
     cout << "Sum of " << a << " + "
+         << "k"
          << " = " << char(a + b) << endl;
     return a + b;
 }
@@ -46,5 +47,5 @@ int main()
     sum(2.3f, 3.4f);
     sum(2, 5.5f);
     sum(2.4f, 4);
-    sum(55, 'y');
+    sum(2, 'k');
 }
